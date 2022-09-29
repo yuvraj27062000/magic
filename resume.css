@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(82, 241, 241);
+  }
+
+ 
+.main-content{
+     
+    border: 2px solid black;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    width: 90%;
+    float: right;
+    
+     
+        
+}   
+.left-section{
+    background-color: rgb(4, 45, 82);
+    color:white
+}
+.right-section{
+        background-color: aliceblue;
+
+}
+.left-content{
+    padding: 1rem;
+}
+ 
+.profile-image{
+
+    display: block;
+    margin: auto;
+    border: solid white 5px;
+    border-radius: 30%;
+    height:30%;
+    width: 60%;
+   
+
+}
+.name{
+    font-size: 1.2rem;
+    width: 700;
+    height:40%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+ 
+   
+    
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.social-media li{
+    display: inline;
+    padding: 5%;
+}
+
+.fa {
+
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  
+}
+
+.fa:hover {
+   color: blue;
+   cursor:alias;
+   transform: scale(1.5);
+    
+}
+
+.fa-facebook {
+  background: white;
+  color: black;
+}
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+.fa-instagram {
+  background: white;
+  color: black;
+}
+.fa-github {
+  background: white;
+  color: black;
+}
+.fa-route{
+  background: white;
+  color: black;
+  size: 20px;
+}
+.fa-phone-square{
+  background: white;
+  color: black;
+}
+ 
+.fa-envelope{
+    background: white;
+  color: black;
+}
+.fa-map-marker{
+    background: white;
+  color: black;
+}
+.personal-details{
+
+    text-align: left;
+    font-size: small;
+        
+}
+.personal-details li{
+
+display: inline;
+padding: 5%;
+
+}
+.progress-bar{
+    width: 90%;
+}
+
+.skills-title{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform:uppercase;
+    padding : 1rem 0.5rem 1rem 0.5rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    width: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border:solid white 1px;
+    height: 4px;
+    width: 90%;
+   
+}
+ .HTML{
+    width: 90%;
+    
+}
+.CSS{
+    width: 80%;
+}
+.DSA{
+    width: 65%;
+}
+.Python{
+    width: 80%;
+}
+.Django{
+    width: 60%;
+}
+.SQL{
+    width: 90%;
+}
+.JavaScript{
+    width:30%;
+} 
+.blank{
+    margin-top: 10px;
+}
+
+/* ************right side ************************** */
+
+.right-main-content{
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    padding-left: 0px;
+}
+.education{
+    display: inline-block;
+}
+.left { max-width: 70%; float:left;text-align:left; display:inline; }
+.right {max-width: 30%; float:right; text-align:right; display:inline; }
+.container { width: 100%; margin:auto;}
+
+
+.experience{
+    display: inline-block;
+}
+
+@media screen and (max-width: 674px) {
+    .main-content{
+      grid-template-columns: repeat(1, 1fr)  ;
+      width: 90%;
+      min-height: 1000px;
+      font-size: large;
+     
+      /* margin-bottom: 1rem; */
+    }
+  
+    
+  }
